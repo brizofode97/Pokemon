@@ -1,0 +1,14 @@
+-"--save-dev":
+-La différence entre "pipe", "subcribe", "forEach" pour les réponses de flux
+-L'opérateur "tap" en Angular est un équivalent d'un console log adapté à un "Observable".
+-La différence entre "any" et "unknow"
+-L'opérateur "of" en Angular permet de transformer une donnée simple en un flux de données.
+-La différence entre "Router" et "ActivatedRoute"
+-La classe "Subject" de la librairie "RxJS" avec la méthode "push()" a le meme principe que la meme principe que "push" pour les tableaux
+mais utilisée pour les flux de données.
+-Le symbole "$" à la fin d'une variable est une convention qui permet de dire que c'est de type "Observable"(flux de donnée).
+-Le pipe "async" permet d'utilisiser directement un flux de donnée("Observable") sans meme s'abonné("subscribe").
+-L'opérateur "debounceTime"
+-L'opérateur "distinctUntilChanged"
+-Les fonctions "concatMap", "mergeMap" et "switchMap" 
+-L'opérateur "delay" de "RxJS" permet d'exécuter le temps. 
