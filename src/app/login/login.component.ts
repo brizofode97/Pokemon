@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  message: string = 'Vous etes déconnectés. (pikachou/pikacho)';
+  message: string = 'Vous etes déconnectés. (pikachu/pikachu)';
   name: string;
   password: string;
   auth: AuthService;
@@ -28,7 +28,7 @@ export class LoginComponent implements OnInit {
     if (this.authService.isLoggedIn) {
       this.message = 'Vous etes connectes';
     } else {
-      this.message = 'Identifiant ou mot de passe inccorrect.';
+      this.message = 'Identifiant ou mot de passe incorrect.';
     }
   }
 

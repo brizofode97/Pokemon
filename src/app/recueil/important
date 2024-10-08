@@ -11,4 +11,5 @@ mais utilisée pour les flux de données.
 -L'opérateur "debounceTime"
 -L'opérateur "distinctUntilChanged"
 -Les fonctions "concatMap", "mergeMap" et "switchMap" 
--L'opérateur "delay" de "RxJS" permet d'exécuter le temps. 
+-L'opérateur "delay" de "RxJS" permet d'exécuter le temps.
+-La commande "npm install" travaille avec le fichier "package.json" et peut mettre à jour les dépendances sur la page de version(i.e. si on a "13.1.0", on peut le monter jusqu'à 13.8.5 mais ne passe pas à 14). La commande "npm ci" travaille avec le fichier "package-lock.json" permet d'installer exactement les versions spécifiées sans aucune mise à jour majeures ou mineures les packages définis  dans ce fichier.
