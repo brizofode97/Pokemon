@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
   login(name: string, password: string) {
     this.message = 'Tentative de connexion en cours...';
     this.authService.login(name, password)
-      .subscribe((loggeIn: boolean) => {
+      .subscribe(() => {
         this.setMessage();
         if (this.authService.isLoggedIn) {
           this.route.navigate(["/pokemons"]);

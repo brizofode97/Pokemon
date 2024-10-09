@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { PokemonService } from '../pokemon.service';
 import { Pokemon } from '../pokemon';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-pokemon-form',
@@ -29,7 +29,7 @@ export class PokemonFormComponent implements OnInit {
   }
 
   selectType($event: Event, type: string) {
-    const isChecked: Boolean = ($event.target as HTMLInputElement).checked;
+    const isChecked: boolean = ($event.target as HTMLInputElement).checked;
     if (isChecked) {
       this.pokemon.types.push(type);
     } else {

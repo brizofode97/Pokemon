@@ -13,7 +13,6 @@ import { AddPokemonComponent } from './add-pokemon/add-pokemon.component';
 import { SearchPokemonComponent } from './search-pokemon/search-pokemon.component';
 import { LoaderComponent } from './loader/loader.component';
 import { authGuard } from '../guard/auth.guard';
-import { LoginComponent } from '../login/login.component';
 
 const pokemonRoutes: Routes = [
   {path: 'edit/pokemon/:id', component: EditPokemonComponent, canActivate : [authGuard]},

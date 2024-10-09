@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Pokemon } from '../pokemon';
 import { Router } from '@angular/router';
-import { debounceTime, distinctUntilChanged, NEVER, Observable, Subject, switchMap } from 'rxjs';
+import { debounceTime, distinctUntilChanged, Observable, Subject, switchMap } from 'rxjs';
 import { PokemonService } from '../pokemon.service';
 
 @Component({

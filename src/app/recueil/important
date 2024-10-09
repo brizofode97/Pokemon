@@ -13,3 +13,9 @@ mais utilisée pour les flux de données.
 -Les fonctions "concatMap", "mergeMap" et "switchMap" 
 -L'opérateur "delay" de "RxJS" permet d'exécuter le temps.
 -La commande "npm install" travaille avec le fichier "package.json" et peut mettre à jour les dépendances sur la page de version(i.e. si on a "13.1.0", on peut le monter jusqu'à 13.8.5 mais ne passe pas à 14). La commande "npm ci" travaille avec le fichier "package-lock.json" permet d'installer exactement les versions spécifiées sans aucune mise à jour majeures ou mineures les packages définis  dans ce fichier.
+-Un linter est un garant de la qualité de code qui permet de vérifier si le code respet un certain code style. Pour cela, on peut utiiser "Eslint" dans nos projet angular.
+Commande :
+    "npm install eslint --save-dev" pour l'intaller uniquement sur e projet courant.
+    "npx eslint --init" pour l'initialiser en répondant un certain nombres de question.
+    "ng add @angular-eslint/schematics" pour ajouter des règles spécifiques.
+    "ng run lint" pour voir les erreurs correspondants au non respect des règles.

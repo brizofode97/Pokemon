@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { POKEMONS } from './mock-pokemon-list';
 import { Pokemon } from './pokemon';
 import { Observable, catchError, of, tap } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
@@ -74,7 +73,7 @@ export class PokemonService {
     console.table(`😆---le pokemon est : ${response}`);
   }
 
-  private handleError(error: Error, errorValue: [] | undefined | null): Observable<any> {
+  private handleError(error: Error, errorValue: [] | any): Observable<any> {
     console.error(`😡 l'erreur est ${error.message}`);
     return of(errorValue);
   }
